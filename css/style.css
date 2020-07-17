@@ -1,0 +1,136 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+/*トップレイアウト*/
+main {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/*左トップヘッダー*/
+header {
+    width: 25%;
+    height: 1000px;
+    margin-top: 5%;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 60%;
+}
+
+header nav ul li {
+    font-size: 20px;
+    line-height: 8;
+    text-align: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #604b3b;
+}
+
+header nav ul li a:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+header nav ul li img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 15%;
+}
+
+header nav ul li img:hover {
+    opacity: 0.8;
+}
+/*右トップヘッダー*/
+.right-top {
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    
+}
+
+.right-top img {
+    width: 100%;
+}
+
+/*右下サブメニュー*/
+.submenu {
+    display: flex;
+}
+
+section {
+    width: 33%;
+    padding: 1%;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+section:first-child {
+    margin-left: 0px;
+}
+
+
+section h2 {
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+
+section:last-child p {
+    line-height: 
+}
+
+.meja-sec p {
+    margin-top: 4%;
+}
+
+.meja-sec iframe {
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.wanted-s img {
+    margin-top: 10%;
+}
+
+.wanted-s img:hover {
+    opacity: 0.8;
+}
+
+.news ul {
+    list-style-type: none;
+    padding: 2%;
+    line-height: 3;
+    font-size: 15px;
+}
+
+.news ul li {
+     margin-top: 4%;
+}
+
+
+/*フッター*/
+footer p {
+    text-align: right;
+    line-height: 10;
+    margin-right: 3%;
+    color: #ccc;
+}

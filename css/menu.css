@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/*ヘッダー*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav ul {
+    width: 700px;
+    display: flex;
+    margin-left: auto;
+}
+
+header nav ul li {
+    width: 100px;
+    line-height: 4;
+    margin-left: 6%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: #604b3b;
+}
+
+header nav ul li a:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+.menunav {
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+}
+
+header nav ul li img {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav ul li img:hover {
+    opacity: 0.8;
+}
+
+/*フードメニュー*/
+.menutext {
+    margin-top: 7%;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 3% auto 0;
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+.menu p {
+    text-align: center;
+}
+
+.menu img {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+
+.topping {
+    border: 1px solid #ccc;
+}
+
+.beafcurry {
+    margin-top: 10%;
+}
+
+.keemacurry {
+    margin-top: 10%;
+}
+
+.topping {
+    margin-top: 20%;
+    padding: 1%;
+}
+
+.topping h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1%;
+}
+
+.topping p {
+    line-height: 3;
+}
+
+/*フッター*/
+footer p {
+    text-align: right;
+    line-height: 10;
+    margin-right: 3%;
+    color: #ccc;
+}
+
+
+
+
+
+
